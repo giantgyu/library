@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>My Library</h1>
+
+    <!-- books div start -->
+    <div id="library">
+
+    </div>
+    <!-- books div end -->
+
+
+    <!-- Dialog and buttons for adding books to library - Start -->
+    <dialog id="add-new-book-dialog">
+        <div>Add new book below</div>
+        <label for="book-title">Book Title:</label>
+        <input autofocus type="text" id="book-title" name="book-title" />
+        <br>
+        <label for="book-author">Book Author:</label>
+        <input type="text" id="book-author" name="book-author">
+        <br>
+        <button>Add to library</button>
+    </dialog>
+    <button id="add-new-book-btn">+ Add New Book</button>
+    <!-- Dialog and buttons for adding books to library - End -->
+
+    <dialog id="delete-book-confirmation-dialog">
+        Are you sure to delete the book?
+        <button>Delete</button>
+        <button>Cancel</button>
+    </dialog>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
