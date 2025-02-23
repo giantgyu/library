@@ -6,15 +6,23 @@ button {
     background-color: rgb(108, 203, 89);
     padding: 0.5rem;
     border-radius: 0.5rem;
+    display: block;
 }
 
 #library {
     display: flex;
+    width: 90vw;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #library>div {
     flex-direction: row;
-    flex-wrap: wrap;
     background-color: aliceblue;
     border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 128px;
+    height: 200px;
 }
